@@ -1,0 +1,51 @@
+.answer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 80%;
+  min-width: 500px;
+  margin: 10px;
+}
+
+.answerContent {
+  position: relative;
+  display: flex;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.front,
+.back {
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.front {
+  background-color: #ffffff;
+  color: black;
+  padding: 15px;
+  border-radius: 12px;
+  align-items: center;
+}
+
+.letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.value {
+  font-size: 1.3rem;
+  font-weight: 700;
+}

@@ -1,0 +1,11 @@
+.questionContainer {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.questionContent {
+  display: flex;
+  flex-direction: column;
+}
